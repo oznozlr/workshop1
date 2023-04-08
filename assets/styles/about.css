@@ -1,0 +1,66 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*=============================================
+=          Section  "Bölüm Adı"         =
+=============================================*/
+
+/* Bölüm ile ilgili css kodlar buraya yazılacak */
+/* İlk mobilden kodlamaya başlıyoruz ve aşağıdaki mediaların içine tablet ve desktop olarak değiştiriyoruz */
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+}
+
+/*=====  End of Section "Bölüm Adı"  ======*/
