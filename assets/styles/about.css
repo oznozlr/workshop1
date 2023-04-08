@@ -6,8 +6,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
-  padding: 0;
 }
 
 html,
@@ -18,7 +20,6 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Inter', sans-serif;
 }
 
 img,
@@ -45,20 +46,6 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  cursor: pointer;
-  font-family: inherit;
-}
-
-ul {
-  list-style: none;
 }
 
 /*=============================================
