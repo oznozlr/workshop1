@@ -49,18 +49,119 @@ h6 {
 }
 
 /*=============================================
-=          Section  "Bölüm Adı"         =
+=          Section  "testimonia"         =
 =============================================*/
 
 /* Bölüm ile ilgili css kodlar buraya yazılacak */
 /* İlk mobilden kodlamaya başlıyoruz ve aşağıdaki mediaların içine tablet ve desktop olarak değiştiriyoruz */
+/*   mobil-view-start  */
+.testimonial-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial-container-alt{
+  margin: 0 auto;
+  padding: 0;
+}
+.testimonial-container h1{
+  margin: 12px 16px;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #272D37;
+
+
+}
+.testimonial-container p{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 16px;
+  color: #5F6D7E;
+  text-align: center;
+  
+}
+.avatar{  
+  display: flex;
+  flex-wrap: wrap; 
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  padding: 45px;
+  
+}
+.avatar img{
+  margin: 0 -7px;
+  width: 50px;
+  height: 50px;
+}
+.avatar p{
+  margin: 26px auto;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272D37;
+  
+}
+.star{
+  display: flex;
+  flex-wrap: wrap; 
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  padding: 45px;
+  
+
+}
+.star p{
+  margin: 26px auto;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272D37;
+}
+.divider{
+  margin: 0 auto;
+  width: 343px;
+  height: 0px;
+  border: 1px solid #EAEBF0;
+  transform: rotate(-180deg);
+
+}
+
+/*   mobil-view-end  */
+
 
 /* Tablet */
 @media (min-width: 768px) {
+  .testimonial-container-alt{
+      display: flex;
+  }
+  .divider{
+      display: none;
+  }
+  
 }
 
 /* Desktop */
 @media (min-width: 1440px) {
+  .testimonial-container-alt{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px 32px;
+      gap: 48px;
+  }
+  .divider{
+      display: none;
+  }
+  
 }
 
-/*=====  End of Section "Bölüm Adı"  ======*/
+/*=====  End of Section "testimonia"  ======*/
